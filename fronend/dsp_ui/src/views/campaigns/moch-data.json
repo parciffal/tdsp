@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Coca Cola",
+        "budget": 150000,
+        "bidfloor": "cola"
+    },
+    {
+        "id": 2,
+        "name": "Coca Cola",
+        "budget": 150000,
+        "bidfloor": "cola"
+    },
+    {
+        "id": 3,
+        "name": "Coca Cola",
+        "budget": 150000,
+        "bidfloor": "cola"
+    },
+    {
+        "id": 4,
+        "name": "Coca Cola",
+        "budget": 150000,
+        "bidfloor": "cola"
+    },
+    {
+        "id": 5,
+        "name": "Coca Cola",
+        "budget": 150000,
+        "bidfloor": "cola"
+    }
+]

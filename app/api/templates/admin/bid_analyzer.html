@@ -1,0 +1,24 @@
+{% extends 'admin/base.html' %}
+
+<!-- {% block extrahead %} -->
+  <!-- <link rel="stylesheet" type="text/css" href="{% static 'admin/css/bid_analyzer.css' %}"> -->
+<!-- {% endblock %} -->
+
+{% block content %}
+  <div class="bid-analyzer-form">
+    <form method="post">
+      {% csrf_token %}
+      <div class="field-box">
+        <label class="required" for="id_aggressive">Aggressive:</label>
+        <select id="id_aggressive" name="aggressive">
+          <option value="True">True</option>
+          <option value="False" selected>False</option>
+        </select>
+      </div>
+      <div class="submit-row">
+        <input type="submit" value="Save" class="button primary">
+      </div>
+    </form>
+  </div>
+{% endblock %}
+
